@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Home() {
   return (
-    <>
+    <><div className="m-0">
       {/* Hero Section with Tech Background */}
       <section className="relative min-h-[800px] overflow-hidden">
         {/* Background Image with Overlay */}
@@ -152,6 +152,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </div>
     </>
   )
 }
