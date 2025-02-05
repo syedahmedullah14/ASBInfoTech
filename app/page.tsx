@@ -8,6 +8,7 @@ export default function Home() {
       {/* Hero Section with Tech Background */}
       <section className="relative min-h-[800px] overflow-hidden">
         {/* Background Image with Overlay */}
+        <div></div>
         <div className="absolute inset-0">
           <Image
             src="/tech3.jpeg?height=1080&width=1920"
@@ -99,7 +100,7 @@ export default function Home() {
                   AHEAD OF THE CURVE : 2025 BUSINESS TRENDS
                 </h2>
                 <p className="text-white/90">
-                  Wipro experts forecast how top organizations can capitalize on opportunities for growth.
+                  ASB experts forecast how top organizations can capitalize on opportunities for growth.
                 </p>
               </div>
               <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
@@ -120,7 +121,7 @@ export default function Home() {
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
                   HOW AI & INDUSTRY CLOUD COMBINE INNOVATION & POWER BUSINESS VALUE
                 </h2>
-                <p className="text-white/90">An insight report by Wipro FullStride Cloud and Forbes.</p>
+                <p className="text-white/90">An insight report by ASB FullStride Cloud and Forbes.</p>
               </div>
               <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
                 READ MORE <ArrowRight className="ml-2 h-4 w-4" />
@@ -158,7 +159,7 @@ export default function Home() {
               <div>
                 <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">DRIVING BUSINESS OUTCOMES WITH AI</h2>
                 <p className="text-white/90">
-                  A Harvard Business Review analytic services report in association with Wipro FullStride Cloud.
+                  A Harvard Business Review analytic services report in association with ASB FullStride Cloud.
                 </p>
               </div>
               <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
@@ -170,41 +171,19 @@ export default function Home() {
             <Image src="/business4.webp" alt="Analytics visualization" fill className="object-cover" />
             
           </div>
-          <div className="relative group cursor-pointer h-[400px]">
-            <div className="absolute inset-0 bg-[#5F259F] bg-opacity-90 p-8 flex flex-col justify-between">
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">DRIVING BUSINESS OUTCOMES WITH AI</h2>
-                <p className="text-white/90">
-                  A Harvard Business Review analytic services report in association with Wipro FullStride Cloud.
-                </p>
-              </div>
-              <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
-                READ MORE <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </div>
-          </div>
+       
           <div className="relative group cursor-pointer h-[400px]">
             
             <Image src="/business5.jpg" alt="Analytics visualization" fill className="object-cover" />
            
           </div>
           <div className="relative group cursor-pointer h-[400px]">
-            <div className="absolute top-4 right-4 z-10">
-              <Image
-                src="/placeholder.svg"
-                alt="Harvard Business Review Logo"
-                width={100}
-                height={40}
-                className="h-8 w-auto"
-              />
-            </div>
-            <Image src="/placeholder.svg" alt="Analytics visualization" fill className="object-cover" />
-            <div className="absolute inset-0 bg-[#5F259F] bg-opacity-90 p-8 flex flex-col justify-between">
+        
+            <div className="absolute inset-0 bg-[#2f8fd0]  p-8 flex flex-col justify-between">
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">DRIVING BUSINESS OUTCOMES WITH AI</h2>
-                <p className="text-white/90">
-                  A Harvard Business Review analytic services report in association with Wipro FullStride Cloud.
-                </p>
+                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">ASB NAMED LEADER IN ISG'S HEALTHCARE DIGITAL SERVICES REPORT</h2>
+                <p className="text-white">
+                A research report comparing provider strengths, challenges and competitive differentiators.                </p>
               </div>
               <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
                 READ MORE <ArrowRight className="ml-2 h-4 w-4" />
@@ -212,22 +191,17 @@ export default function Home() {
             </div>
           </div>
           <div className="relative group cursor-pointer h-[400px]">
-            <div className="absolute top-4 right-4 z-10">
-              <Image
-                src="/placeholder.svg"
-                alt="Harvard Business Review Logo"
-                width={100}
-                height={40}
-                className="h-8 w-auto"
-              />
-            </div>
-            <Image src="/placeholder.svg" alt="Analytics visualization" fill className="object-cover" />
-            <div className="absolute inset-0 bg-[#5F259F] bg-opacity-90 p-8 flex flex-col justify-between">
+          
+            <Image src="/business6.jpg" alt="Analytics visualization" fill className="object-cover" />
+          
+          </div>
+          <div className="relative group cursor-pointer h-[400px]">
+          
+            <div className="absolute inset-0 bg-[#00a796]  p-8 flex flex-col justify-between">
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">DRIVING BUSINESS OUTCOMES WITH AI</h2>
-                <p className="text-white/90">
-                  A Harvard Business Review analytic services report in association with Wipro FullStride Cloud.
-                </p>
+                <h2 className="text-2xl md:text-3xl font-bold font-proxima-nova text-white mb-4">NEXT-GEN AI ASSISTANT FOR TOURISM IN THAILAND</h2>
+                <p className="text-white">
+                The exciting initiative is set to leverage NVIDIA's technology to transform the tourism experience in Thailand.                </p>
               </div>
               <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
                 READ MORE <ArrowRight className="ml-2 h-4 w-4" />
