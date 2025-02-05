@@ -73,6 +73,168 @@ export default function Home() {
           </div>
         </div>
       </section>
+      
+      <section className="grid grid-cols-1 md:grid-cols-4">
+          {/* Business Trends Section */}
+          <div className="relative group cursor-pointer h-[400px] ">
+            <Image src="/business1.jpg" alt="Person looking at horizon" fill className="object-cover" />
+            {/* <div className="absolute inset-0 bg-[#0077C8] bg-opacity-90 p-8 flex flex-col justify-between"> */}
+              {/* <div> */}
+                {/* <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+                  AHEAD OF THE CURVE : 2025 BUSINESS TRENDS
+                </h2> */}
+                {/* <p className="text-white/90">
+                  Wipro experts forecast how top organizations can capitalize on opportunities for growth.
+                </p> */}
+              {/* </div> */}
+              {/* <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
+                READ MORE <ArrowRight className="ml-2 h-4 w-4" />
+              </Button> */}
+            {/* </div> */}
+          </div>
+          <div className="relative group cursor-pointer h-[400px]">
+            <div className="absolute inset-0 bg-[#746FA8] p-8 flex flex-col justify-between">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+                  AHEAD OF THE CURVE : 2025 BUSINESS TRENDS
+                </h2>
+                <p className="text-white/90">
+                  Wipro experts forecast how top organizations can capitalize on opportunities for growth.
+                </p>
+              </div>
+              <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
+                READ MORE <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+          <div className="relative group cursor-pointer h-[400px]">
+            <Image src="/business2.webp" alt="Person looking at horizon" fill className="object-cover" />
+            
+          </div>
+
+          {/* AI & Industry Cloud Section */}
+          <div className="relative group cursor-pointer h-[400px]">
+           
+            <div className="absolute inset-0 bg-[#1B6AA8] p-8 flex flex-col justify-between">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+                  HOW AI & INDUSTRY CLOUD COMBINE INNOVATION & POWER BUSINESS VALUE
+                </h2>
+                <p className="text-white/90">An insight report by Wipro FullStride Cloud and Forbes.</p>
+              </div>
+              <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
+                READ MORE <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+
+          {/* Telecom Innovation Section */}
+          <div className="relative group cursor-pointer h-[400px]">
+            <div className="absolute inset-0 bg-[#3398B3]  p-8 flex flex-col justify-between">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
+                  STAYING COMPETITIVE IN TELECOM WITH AI & PLATFORM INNOVATION
+                </h2>
+                <p className="text-white/90">
+                  By adopting technology-driven platforms, leveraging AI, and expanding partnerships, companies can
+                  position themselves for success.
+                </p>
+              </div>
+              <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
+                READ MORE <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+
+          {/* Business Outcomes Section */}
+          <div className="relative group cursor-pointer h-[400px]">
+           
+            <Image src="/business3.webp" alt="Analytics visualization" fill className="object-cover" />
+            
+          </div>
+          <div className="relative group cursor-pointer h-[400px]">
+            
+            <div className="absolute inset-0 bg-[#341d55] p-8 flex flex-col justify-between">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">DRIVING BUSINESS OUTCOMES WITH AI</h2>
+                <p className="text-white/90">
+                  A Harvard Business Review analytic services report in association with Wipro FullStride Cloud.
+                </p>
+              </div>
+              <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
+                READ MORE <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+          <div className="relative group cursor-pointer h-[400px]">              
+            <Image src="/business4.webp" alt="Analytics visualization" fill className="object-cover" />
+            
+          </div>
+          <div className="relative group cursor-pointer h-[400px]">
+            <div className="absolute inset-0 bg-[#5F259F] bg-opacity-90 p-8 flex flex-col justify-between">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">DRIVING BUSINESS OUTCOMES WITH AI</h2>
+                <p className="text-white/90">
+                  A Harvard Business Review analytic services report in association with Wipro FullStride Cloud.
+                </p>
+              </div>
+              <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
+                READ MORE <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+          <div className="relative group cursor-pointer h-[400px]">
+            
+            <Image src="/business5.jpg" alt="Analytics visualization" fill className="object-cover" />
+           
+          </div>
+          <div className="relative group cursor-pointer h-[400px]">
+            <div className="absolute top-4 right-4 z-10">
+              <Image
+                src="/placeholder.svg"
+                alt="Harvard Business Review Logo"
+                width={100}
+                height={40}
+                className="h-8 w-auto"
+              />
+            </div>
+            <Image src="/placeholder.svg" alt="Analytics visualization" fill className="object-cover" />
+            <div className="absolute inset-0 bg-[#5F259F] bg-opacity-90 p-8 flex flex-col justify-between">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">DRIVING BUSINESS OUTCOMES WITH AI</h2>
+                <p className="text-white/90">
+                  A Harvard Business Review analytic services report in association with Wipro FullStride Cloud.
+                </p>
+              </div>
+              <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
+                READ MORE <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+          <div className="relative group cursor-pointer h-[400px]">
+            <div className="absolute top-4 right-4 z-10">
+              <Image
+                src="/placeholder.svg"
+                alt="Harvard Business Review Logo"
+                width={100}
+                height={40}
+                className="h-8 w-auto"
+              />
+            </div>
+            <Image src="/placeholder.svg" alt="Analytics visualization" fill className="object-cover" />
+            <div className="absolute inset-0 bg-[#5F259F] bg-opacity-90 p-8 flex flex-col justify-between">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">DRIVING BUSINESS OUTCOMES WITH AI</h2>
+                <p className="text-white/90">
+                  A Harvard Business Review analytic services report in association with Wipro FullStride Cloud.
+                </p>
+              </div>
+              <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
+                READ MORE <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+            </div>
+          </div>
+        </section>
 
       {/* About Section with Tech Image */}
       <section className="overflow-hidden border-t bg-secondary/30">

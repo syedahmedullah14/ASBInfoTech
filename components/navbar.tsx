@@ -67,7 +67,7 @@ export function Navbar() {
         <NavigationMenu className="ml-6">
           <NavigationMenuList>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-primary">Products</NavigationMenuTrigger>
+              <NavigationMenuTrigger className="text-black text-lg">Products</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                   {products.map((product) => (
@@ -79,7 +79,7 @@ export function Navbar() {
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-primary">Solutions</NavigationMenuTrigger>
+              <NavigationMenuTrigger className="text-black text-lg">Solutions</NavigationMenuTrigger>
               <NavigationMenuContent>
                 <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px]">
                   {solutions.map((solution) => (
@@ -102,14 +102,14 @@ export function Navbar() {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-        <div className="ml-auto flex items-center space-x-4">
-          <Button variant="ghost" className="text-sm font-medium text-primary">
+        {/* <div className="ml-auto flex items-center"> */}
+          {/* <Button variant="ghost" className="text-sm font-medium text-primary">
             Sign In
           </Button>
           <Button className="text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90">
             Sign Up Free
-          </Button>
-        </div>
+          </Button> */}
+        {/* </div> */}
       </div>
     </header>
   )
@@ -139,6 +139,6 @@ const ListItem = React.forwardRef<React.ElementRef<"a">, React.ComponentPropsWit
 ListItem.displayName = "ListItem"
 
 const navigationMenuTriggerStyle = cva(
-  "group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-sm font-medium transition-colors hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-primary/10 data-[state=open]:bg-primary/10",
+  "text-lg text-black group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 hover:bg-/10 hover:text-black",
 )
 
