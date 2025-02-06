@@ -6,24 +6,13 @@ export default function Home() {
   return (
     <><div className="m-0">
       {/* Hero Section with Tech Background */}
-      <section className="relative min-h-[800px] overflow-hidden">
+      {/* <section className="relative min-h-[800px] overflow-hidden "> */}
         {/* Background Image with Overlay */}
-        <div></div>
-        <div className="absolute inset-0">
-          <Image
-            src="/tech3.jpeg?height=1080&width=1920"
-            alt="Technology Background"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-tl from-background/40 via-background/80 to-background/40" />
-          {/* Abstract Pattern Overlay */}
-          <div className="absolute inset-0 bg-grid-white/[0.02]" />
-        </div>
 
         {/* Hero Content */}
-        <div className="container relative flex min-h-[800px] flex-col items-center justify-center py-24 m-auto">
+        {/* <div className="flex flex-col-2 container relative min-h-[800px] items-center justify-center space-x-10 py-24 m-auto"> */}
+        {/* <div className="container relative flex min-h-[800px] flex-col items-center justify-center py-24 m-auto"> */}
+        {/* <div>
           <div className="mx-auto max-w-[980px] text-center">
             <h1 className="text-7xl font-bold tracking-tight">
               <span className="text-primary">Welcome to</span>
@@ -45,10 +34,103 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Floating Tech Elements */}
-        <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-background to-transparent m-auto" />
-      </section>
+        <div className="">
+          <Image
+            src="/tech3.jpeg?height=1080&width=1920"
+            alt="Technology Background"
+            
+            className="object-cover"
+            priority
+            fill
+          /> */}
+          {/* <div className="absolute inset-0 bg-gradient-to-tl from-background/40 via-background/80 to-background/40" /> */}
+          {/* Abstract Pattern Overlay */}
+          {/* <div className="absolute inset-0 bg-grid-white/[0.02]" /> */}
+{/*         
 
+        </div>
+        </div>
+       */}
+
+        {/* Floating Tech Elements */}
+        {/* <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-background to-transparent m-auto" />
+      </section> */}
+{/* Hero Section */}
+      <section className="bg-gray-50 overflow-hidden ">
+        <div className="w-auto h-auto">
+          <div className="flex flex-col lg:flex-row">
+            {/* Image on the left */}
+            <div className="w-full lg:w-1/2 relative min-h-[300px] lg:h-auto">
+              <Image
+                src="/tech3.jpeg?height=1080&width=1920"
+                alt="ASB Infotech Solutions"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+            {/* Text content on the right */}
+            <div className="w-full lg:w-1/2 p-8 lg:p-16 flex flex-col justify-center bg-[#341d55]">
+              <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
+                <span className="block text-white">Welcome to</span>
+                <span className="block text-white">ASB InfoTech</span>
+              </h1>
+              <p className="mt-6 max-w-xl text-xl text-gray-300">
+                Transforming businesses through innovative technology and digital solutions. We deliver cutting-edge AI
+                and machine learning capabilities to drive your success.
+              </p>
+              <div className="mt-10 flex items-center gap-x-6">
+                <Button size="lg" className="h-12 px-6 text-lg">
+                  Get Started
+                  <ArrowRight className="ml-2 h-5 w-5" />
+                </Button>
+                <Button size="lg" variant="outline" className="h-12 px-6 text-lg">
+                  Learn More
+                </Button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {/* About Section with Tech Image */}
+      <section className="overflow-hidden border-t bg-[#111111]">
+        <div className="container py-24 m-auto">
+          <div className="grid gap-12 lg:grid-cols-2 lg:gap-24">
+            <div className="flex flex-col justify-center space-y-4">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">About Us</h2>
+              <div className="space-y-4">
+                <p className="text-white">
+                  Built on strong pillars of integrity, honesty and perseverance, ASB Infotech is led by talented
+                  individuals committed to providing optimum solutions across the IT Services Industry.
+                </p>
+                <p className="text-white">
+                  We cater to client services across Business and Technology needs in Financial, Retail, Insurance,
+                  Educational, E-Commerce, Security, and Medical/Pharmaceutical domains.
+                </p>
+                <p className="text-white">
+                  Following true Agile principles, we embrace change through continuous learning, adaptation, and
+                  process improvements.
+                </p>
+              </div>
+              <div className="flex gap-4">
+                <Button className="group">
+                  Learn More
+                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                </Button>
+                <Button variant="outline">Contact Us</Button>
+              </div>
+            </div>
+            <div className="relative aspect-square overflow-hidden rounded-xl lg:aspect-auto lg:h-[600px]">
+              <Image
+                src="/tech5.jpg?height=1200&width=1200"
+                alt="Technology Innovation"
+                fill
+                className="object-cover transition duration-500 hover:scale-105"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Features Section */}
       <section className="border-t">
         <div className="container py-24 m-auto">
@@ -108,7 +190,7 @@ export default function Home() {
               </Button>
             </div>
           </div>
-          <div className="relative group cursor-pointer h-[400px]">
+          <div className="relative group cursor-pointer h-[400px] ">
             <Image src="/business2.webp" alt="Person looking at horizon" fill className="object-cover" />
             
           </div>
@@ -210,45 +292,7 @@ export default function Home() {
           </div>
         </section>
 
-      {/* About Section with Tech Image */}
-      <section className="overflow-hidden border-t bg-secondary/30">
-        <div className="container py-24 m-auto">
-          <div className="grid gap-12 lg:grid-cols-2 lg:gap-24">
-            <div className="flex flex-col justify-center space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">About Us</h2>
-              <div className="space-y-4">
-                <p className="text-muted-foreground">
-                  Built on strong pillars of integrity, honesty and perseverance, ASB Infotech is led by talented
-                  individuals committed to providing optimum solutions across the IT Services Industry.
-                </p>
-                <p className="text-muted-foreground">
-                  We cater to client services across Business and Technology needs in Financial, Retail, Insurance,
-                  Educational, E-Commerce, Security, and Medical/Pharmaceutical domains.
-                </p>
-                <p className="text-muted-foreground">
-                  Following true Agile principles, we embrace change through continuous learning, adaptation, and
-                  process improvements.
-                </p>
-              </div>
-              <div className="flex gap-4">
-                <Button className="group">
-                  Learn More
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Button>
-                <Button variant="outline">Contact Us</Button>
-              </div>
-            </div>
-            <div className="relative aspect-square overflow-hidden rounded-xl lg:aspect-auto lg:h-[600px]">
-              <Image
-                src="/tech5.jpg?height=1200&width=1200"
-                alt="Technology Innovation"
-                fill
-                className="object-cover transition duration-500 hover:scale-105"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Tech Stack Section */}
       <section className="relative overflow-hidden">
