@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Home() {
   return (
-    <><div className="m-0">
+    <><div className="m-0 overflow-hidden">
       {/* Hero Section with Tech Background */}
       {/* <section className="relative min-h-[800px] overflow-hidden "> */}
         {/* Background Image with Overlay */}
@@ -93,10 +93,10 @@ export default function Home() {
         </div>
       </section>
       {/* About Section with Tech Image */}
-      <section className="overflow-hidden border-t bg-[#111111]">
+      <section className="overflow-hidden border-t bg-[#111111] ">
         <div className="container py-24 m-auto">
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-24">
-            <div className="flex flex-col justify-center space-y-4">
+            <div className="flex flex-col justify-center space-y-4 md:ml-5 sm:ml-5">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">About Us</h2>
               <div className="space-y-4">
                 <p className="text-white">
@@ -120,7 +120,7 @@ export default function Home() {
                 <Button variant="outline">Contact Us</Button>
               </div>
             </div>
-            <div className="relative aspect-square overflow-hidden rounded-xl lg:aspect-auto lg:h-[600px]">
+            <div className="relative aspect-square overflow-hidden rounded-xl lg:aspect-auto lg:h-[600px] md:mr-5 sm:mr-5">
               <Image
                 src="/tech5.jpg?height=1200&width=1200"
                 alt="Technology Innovation"

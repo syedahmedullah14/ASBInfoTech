@@ -53,8 +53,9 @@ const solutions = [
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-16 items-center">
+    // <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 overflow-hidden">
+      <div className="container flex h-20 items-center">
         <Link href="/" className="flex items-center space-x-2">
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/abslogo-5F0cct4TGhJpAE2xatFERZans7drxc.webp"

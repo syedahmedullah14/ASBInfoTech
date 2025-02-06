@@ -87,9 +87,9 @@ import { Button } from "@/components/ui/button"
 
 export function Footer() {
   return (
-    <footer className="border-t bg-[#1b0056]">
+    <footer className="border-t bg-[#1b0056] sm: ml-2">
       <div className="container py-16 m-auto">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4 md:ml-5 sm:ml-5">
           <div>
             <h3 className="mb-4 text-lg font-semibold text-white">About ASB Infotech</h3>
             <p className="text-sm text-white">
