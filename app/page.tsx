@@ -93,8 +93,8 @@ export default function Home() {
         </div>
       </section>
       {/* About Section with Tech Image */}
-      <section className="overflow-hidden border-t bg-[#111111] ">
-        <div className="container py-24 m-auto">
+      <section className="overflow-hidden border-t bg-[#111111]">
+        <div className="container py-24 m-auto sm: px-2">
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-24">
             <div className="flex flex-col justify-center space-y-4 md:ml-5 sm:ml-5">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-white">About Us</h2>
@@ -133,7 +133,7 @@ export default function Home() {
       </section>
       {/* Features Section */}
       <section className="border-t">
-        <div className="container py-24 m-auto">
+        <div className="container py-24 m-auto sm: px-2">
           <div className="mx-auto max-w-[800px] text-center">
             <h2 className="text-3xl font-bold">Enterprise Solutions for Modern Businesses</h2>
             <p className="mt-4 text-lg text-muted-foreground">
@@ -296,7 +296,7 @@ export default function Home() {
 
       {/* Tech Stack Section */}
       <section className="relative overflow-hidden">
-        <div className="container py-24 m-auto">
+        <div className="container py-24 m-auto sm: px-2">
           <div className="mx-auto max-w-[800px] text-center">
             <h2 className="text-3xl font-bold">Powered by Latest Technology</h2>
             <p className="mt-4 text-lg text-muted-foreground">
