@@ -70,7 +70,7 @@ export default function Home() {
               />
             </div>
             {/* Text content on the right */}
-            <div className="w-full lg:w-1/2 p-8 lg:p-16 flex flex-col justify-center bg-[#341d55]  min-h-[800px]">
+            <div className="w-full lg:w-1/2 p-8 lg:p-16 flex flex-col justify-center bg-[#341d55]  min-h-[800px] sm: min-h-[450px]">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block text-white">Welcome to</span>
                 <span className="block text-white">ASB InfoTech</span>

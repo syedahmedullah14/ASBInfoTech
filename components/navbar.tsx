@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/navigation-menu"
 import { Button } from "@/components/ui/button"
 import { cva } from "class-variance-authority"
+import { useState } from "react"
 
 const products = [
   {
@@ -52,9 +53,12 @@ const solutions = [
 ]
 
 export function Navbar() {
+
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     // <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-    <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 overflow-hidden">
+    <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 overflow-hidden {`md:flex space-x-6 ${menuOpen ? 'block' : 'hidden'}">
       <div className="container flex h-20 items-center">
         <Link href="/" className="flex items-center space-x-2">
           <Image
@@ -103,15 +107,15 @@ export function Navbar() {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-        {/* <div className="ml-auto flex items-center"> */}
-          {/* <Button variant="ghost" className="text-sm font-medium text-primary">
-            Sign In
-          </Button>
-          <Button className="text-sm font-medium bg-primary text-primary-foreground hover:bg-primary/90">
-            Sign Up Free
-          </Button> */}
-        {/* </div> */}
+    
       </div>
+      
+          {/* <nav className={`md:flex space-x-6 ${menuOpen ? 'block' : 'hidden'} absolute md:relative top-full left-0 w-full md:w-auto bg-white md:bg-transparent shadow-md md:shadow-none p-4 md:p-0`}>
+            <a href="#" className="block md:inline text-gray-700 hover:text-blue-600">Home</a>
+            <a href="#about" className="block md:inline text-gray-700 hover:text-blue-600">About</a>
+            <a href="#services" className="block md:inline text-gray-700 hover:text-blue-600">Services</a>
+            <a href="#contact" className="block md:inline text-gray-700 hover:text-blue-600">Contact</a>
+          </nav> */}
     </header>
   )
 }
