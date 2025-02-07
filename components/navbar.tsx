@@ -436,7 +436,7 @@ export function Navbar() {
         <NavigationMenu className="hidden md:flex">
           <NavigationMenuList className="space-x-4">
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-2xl font-medium text-black hover:text-blue-800">
+              <NavigationMenuTrigger className="text-2xl font-medium text-black hover:text-[#44797E]">
                 Products
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -450,7 +450,7 @@ export function Navbar() {
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-2xl font-medium text-black hover:text-blue-800">
+              <NavigationMenuTrigger className="text-2xl font-medium text-black hover:text-[#44797E]">
                 Solutions
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -497,16 +497,16 @@ function MobileNav() {
       </SheetTrigger>
       <SheetContent side="right" className="w-[300px] sm:w-[400px]">
         <nav className="flex flex-col space-y-4 mt-8">
-          <Link href="/products" className="text-xl font-medium text-black hover:text-blue-800">
+          <Link href="/products" className="text-xl font-medium text-black hover:text-[#44797E]">
             Products
           </Link>
-          <Link href="/solutions" className="text-xl font-medium text-black hover:text-blue-800">
+          <Link href="/solutions" className="text-xl font-medium text-black hover:text-[#44797E]">
             Solutions
           </Link>
-          <Link href="/resources" className="text-xl font-medium text-black hover:text-blue-800">
+          <Link href="/resources" className="text-xl font-medium text-black hover:text-[#44797E]">
             Resources
           </Link>
-          <Link href="/company" className="text-xl font-medium text-black hover:text-blue-800">
+          <Link href="/company" className="text-xl font-medium text-black hover:text-[#44797E]">
             Company
           </Link>
         </nav>
@@ -539,6 +539,6 @@ const ListItem = React.forwardRef<React.ElementRef<"a">, React.ComponentPropsWit
 ListItem.displayName = "ListItem"
 
 const navigationMenuTriggerStyle = cva(
-  "group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-2xl font-medium transition-colors hover:bg-accent hover:text-blue-800 focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 text-black",
+  "group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-2xl font-medium transition-colors hover:bg-accent hover:text-[#44797E] focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 text-black",
 )
 
