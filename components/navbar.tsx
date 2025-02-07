@@ -428,7 +428,7 @@ export function Navbar() {
           <Image
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/abslogo-5F0cct4TGhJpAE2xatFERZans7drxc.webp"
             alt="ASB Infotech Logo"
-            width={140}
+            width={190}
             height={37}
             className="object-contain"
           />
@@ -436,7 +436,7 @@ export function Navbar() {
         <NavigationMenu className="hidden md:flex">
           <NavigationMenuList className="space-x-4">
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-lg font-medium text-black hover:text-blue-800">
+              <NavigationMenuTrigger className="text-2xl font-medium text-black hover:text-blue-800">
                 Products
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -450,7 +450,7 @@ export function Navbar() {
               </NavigationMenuContent>
             </NavigationMenuItem>
             <NavigationMenuItem>
-              <NavigationMenuTrigger className="text-lg font-medium text-black hover:text-blue-800">
+              <NavigationMenuTrigger className="text-2xl font-medium text-black hover:text-blue-800">
                 Solutions
               </NavigationMenuTrigger>
               <NavigationMenuContent>
@@ -539,6 +539,6 @@ const ListItem = React.forwardRef<React.ElementRef<"a">, React.ComponentPropsWit
 ListItem.displayName = "ListItem"
 
 const navigationMenuTriggerStyle = cva(
-  "group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-lg font-medium transition-colors hover:bg-accent hover:text-blue-800 focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 text-black",
+  "group inline-flex h-10 w-max items-center justify-center rounded-md bg-background px-4 py-2 text-2xl font-medium transition-colors hover:bg-accent hover:text-blue-800 focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 text-black",
 )
 
