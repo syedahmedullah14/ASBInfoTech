@@ -132,7 +132,7 @@ export default function Home() {
         </div>
       </section>
       {/* Features Section */}
-      <section className="border-t">
+      <section className="border-t bg-slate-300">
         <div className="container py-24 m-auto sm: px-2">
           <div className="mx-auto max-w-[800px] text-center">
             <h2 className="text-3xl font-bold">Enterprise Solutions for Modern Businesses</h2>
