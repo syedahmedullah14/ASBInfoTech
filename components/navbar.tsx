@@ -205,8 +205,8 @@ const solutions = [
 
 export function Navbar() {
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-      <div className="container flex h-20 items-center">
+    <header className="sticky top-0 z-50 w-full border-b bg-background">
+      <div className="container flex h-20 items-center m-auto">
         <div className="mr-4 md:hidden">
           <MobileNav />
         </div>
