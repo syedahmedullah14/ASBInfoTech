@@ -57,8 +57,8 @@ export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    // <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-    <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 overflow-hidden {`md:flex space-x-6 ${menuOpen ? 'block' : 'hidden'}">
+    <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    {/* // <header className="sticky top-0 z-50 w-full border-b border-primary/10 bg-background/95 overflow-hidden {`md:flex space-x-6 ${menuOpen ? 'block' : 'hidden'}"> */}
       <div className="container flex h-20 items-center">
         <Link href="/" className="flex items-center space-x-2">
           <Image
@@ -117,6 +117,7 @@ export function Navbar() {
             <a href="#contact" className="block md:inline text-gray-700 hover:text-blue-600">Contact</a>
           </nav> */}
     </header>
+    // </header>
   )
 }
 
