@@ -294,14 +294,25 @@ export default function Home() {
           
       {/* Testimonial's section*/}
       <section className="relative overflow-hidden">
-        <div className="container py-24 m-auto sm: px-2">
-          <div className="mx-auto max-w-[800px] text-center">
-            <h2 className="text-3xl font-bold">What our customers say</h2>
-            <p className="mt-4 text-lg text-muted-foreground">
-              We use cutting-edge technologies to deliver exceptional solutions
-            </p>
-          </div>
-        </div>
+        {/* <div className="container py-24 m-auto sm: px-2"> */}
+          {/* <div className="mx-auto max-w-[800px] text-center"> */}
+            <h2 className="text-3xl font-bold py-10 m-auto sm: px-2 text-center">What our customers say</h2>
+          {/* </div> */}
+          <div className="container grid grid-cols-1 md:grid-cols-4 justify-between mx-auto max-w-[1200px]">
+              <p className="mt-4 text-lg text-muted-foreground">
+                We use cutting-edge technologies to deliver exceptional solutions
+              </p>
+              <p className="mt-4 text-lg text-muted-foreground">
+                We use cutting-edge technologies to deliver exceptional solutions
+              </p>
+              <p className="mt-4 text-lg text-muted-foreground">
+                We use cutting-edge technologies to deliver exceptional solutions
+              </p>
+              <p className="mt-4 text-lg text-muted-foreground">
+                We use cutting-edge technologies to deliver exceptional solutions
+              </p>
+            </div>
+        {/* </div> */}
       </section>
 
       {/* Tech Stack Section */}
