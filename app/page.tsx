@@ -291,8 +291,18 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-
+          
+      {/* Testimonial's section*/}
+      <section className="relative overflow-hidden">
+        <div className="container py-24 m-auto sm: px-2">
+          <div className="mx-auto max-w-[800px] text-center">
+            <h2 className="text-3xl font-bold">What our customers say</h2>
+            <p className="mt-4 text-lg text-muted-foreground">
+              We use cutting-edge technologies to deliver exceptional solutions
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* Tech Stack Section */}
       <section className="relative overflow-hidden">
