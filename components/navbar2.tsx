@@ -23,9 +23,9 @@ return(
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-8">
+            <nav className="hidden md:flex items-center space-x-8 font-bold text-lg">
               {["Services", "Industries", "Insights", "Stories", "Who we are", "Careers"].map((item) => (
-                <Link key={item} href="#" className="text-white/90 hover:text-white transition-colors">
+                <Link key={item} href="#" className="text-white hover:text-white transition-colors">
                   {item}
                 </Link>
               ))}

@@ -97,6 +97,132 @@ export default function Home() {
           </div>
         </div>
       </section> */}
+
+        {/* The Slalom Experience */}
+      <section className="py-20 bg-[#000B1D]">
+        <div className="container mx-auto px-4">
+          <h2 className="text-4xl md:text-6xl font-bold text-white mb-16">The Slalom experience</h2>
+          <div className="grid md:grid-cols-2 gap-12">
+            <div className="relative rounded-lg overflow-hidden">
+              <Image
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom5.JPG-F3HbsRprdRbuM6t04WIrtFgdFvLRx1.jpeg"
+                alt="Slalom team members"
+                width={600}
+                height={400}
+                className="w-full h-[400px] object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                <p className="text-sm text-white/80">
+                  At a Realize event in Chicago, Slalom consultant leads customers through an improv exercise designed
+                  to help leaders develop empathy and flexibility.
+                </p>
+              </div>
+            </div>
+            <div className="space-y-8">
+              <h3 className="text-2xl md:text-3xl font-bold text-white">
+                End-to-end <em>services</em>
+              </h3>
+              <p className="text-white/90 text-lg">
+                From strategy to digital product building and beyond, we bring the right mix of services to accelerate
+                your vision with holistic, practical solutions. We listen deeply and share our knowledge every step of
+                the way, empowering your teams to continue the momentum after we're gone.
+              </p>
+              <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white">Explore our services</Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Stories & Insights */}
+      <section className="py-20 bg-[#000B1D]">
+        <div className="container mx-auto px-4">
+          <div className="flex justify-between items-center mb-12">
+            <h2 className="text-4xl font-bold text-white">Explore our stories & insights</h2>
+            <div className="flex gap-2">
+              <Button variant="ghost" size="icon" className="text-white">
+                <ArrowRight className="h-5 w-5 rotate-180" />
+              </Button>
+              <Button variant="ghost" size="icon" className="text-white">
+                <ArrowRight className="h-5 w-5" />
+              </Button>
+            </div>
+          </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {[
+              {
+                type: "CUSTOMER STORY",
+                title: "Transforming clinical trials for speed, efficiency, and patient impact",
+                client: "Protas",
+              },
+              {
+                type: "ARTICLE",
+                title: "The paradox of proactive leadership",
+                client: null,
+              },
+              {
+                type: "CUSTOMER STORY",
+                title: "Building the future of retail with BlackLocus",
+                client: "The Home Depot",
+              },
+              {
+                type: "REPORT",
+                title: "Slalom's AI research report: Executive insights for 2025",
+                client: null,
+              },
+            ].map((item, index) => (
+              <div key={index} className="group relative bg-[#001233] rounded-lg overflow-hidden cursor-pointer">
+                <Image
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom3.JPG-BDqv5QMfGDGMr098TWRX794BK3uM9s.jpeg"
+                  alt={item.title}
+                  width={300}
+                  height={200}
+                  className="w-full aspect-[4/3] object-cover"
+                />
+                <div className="p-6 space-y-4">
+                  <span className="text-sm font-medium text-[#e4ff1a]">{item.type}</span>
+                  <h3 className="text-xl font-bold text-white group-hover:text-[#e4ff1a] transition-colors">
+                    {item.title}
+                  </h3>
+                  {item.client && <p className="text-white/60">{item.client}</p>}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Industry Know-how */}
+      <section className="py-20 bg-[#000B1D]">
+        <div className="container mx-auto px-4">
+          <div className="grid lg:grid-cols-2 gap-12">
+            <div className="space-y-6">
+              <h2 className="text-4xl font-bold text-white">
+                Industry <em>know-how</em>
+              </h2>
+              <p className="text-white/90 text-lg">
+                We have rich experience and proven results in your industry. We also share insights across industries to
+                help you uncover new opportunities to adapt and disrupt.
+              </p>
+              <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white">Explore our industries</Button>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-4">
+                <div className="w-12 h-12 bg-[#e4ff1a] rounded-lg" />
+                <h3 className="text-white font-medium">Life sciences</h3>
+              </div>
+              <div className="space-y-4">
+                <div className="w-12 h-12 bg-[#e4ff1a] rounded-lg" />
+                <h3 className="text-white font-medium">Manufacturing & mobility</h3>
+              </div>
+              <div className="space-y-4">
+                <div className="w-12 h-12 bg-[#e4ff1a] rounded-lg" />
+                <h3 className="text-white font-medium">Media & communications</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* About Section with Tech Image */}
       <section className="overflow-hidden border-t bg-[#111111]">
         <div className="container py-24 m-auto sm: px-2">
