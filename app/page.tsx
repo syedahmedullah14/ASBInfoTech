@@ -165,6 +165,33 @@ export default function Home() {
             </div>
             
           </div>
+          <div className="grid md:grid-cols-2 gap-12 mt-20">
+            <div className="relative rounded-lg overflow-hidden">
+              <Image
+                src="business2.webp"
+                alt="Slalom team members"
+                width={600}
+                height={400}
+                className="w-full h-[400px] object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                <p className="text-sm text-white">
+                  At a Realize event in Chicago, ASB consultant leads customers through an improv exercise designed
+                  to help leaders develop empathy and flexibility.
+                </p>
+              </div>
+            </div>
+            <div className="space-y-8">
+              <h3 className="text-2xl md:text-3xl font-bold text-white">
+              Exponential
+              <em> impact</em>
+              </h3>
+              <p className="text-white/90 text-lg">
+              Together with over 700 leading and emerging technology partners, we innovate and co-create to deliver the best ideas and solutions for you. 
+              </p>
+              <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white">Explore our partners</Button>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -226,40 +253,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Industry Know-how */}
-      <section className="py-20 bg-[#000B1D]">
-        <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12">
-            <div className="space-y-6">
-              <h2 className="text-4xl font-bold text-white">
-                Industry <em>know-how</em>
-              </h2>
-              <p className="text-white/90 text-lg">
-                We have rich experience and proven results in your industry. We also share insights across industries to
-                help you uncover new opportunities to adapt and disrupt.
-              </p>
-              <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white">Explore our industries</Button>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="space-y-4">
-                <div className="w-12 h-12 bg-[#e4ff1a] rounded-lg" />
-                <h3 className="text-white font-medium">Life sciences</h3>
-              </div>
-              <div className="space-y-4">
-                <div className="w-12 h-12 bg-[#e4ff1a] rounded-lg" />
-                <h3 className="text-white font-medium">Manufacturing & mobility</h3>
-              </div>
-              <div className="space-y-4">
-                <div className="w-12 h-12 bg-[#e4ff1a] rounded-lg" />
-                <h3 className="text-white font-medium">Media & communications</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* About Section with Tech Image */}
-      <section className="overflow-hidden border-t bg-[#111111]">
+      {/* <section className="overflow-hidden border-t bg-[#111111]">
         <div className="container py-24 m-auto sm: px-2">
           <div className="grid gap-12 lg:grid-cols-2 lg:gap-24">
             <div className="flex flex-col justify-center space-y-4 md:ml-5 sm:ml-5">
@@ -296,9 +291,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Features Section */}
-      <section className="border-t bg-slate-300">
+      {/* <section className="border-t bg-slate-300">
         <div className="container py-24 m-auto sm: px-2">
           <div className="mx-auto max-w-[800px] text-center">
             <h2 className="text-3xl font-bold">Enterprise Solutions for Modern Businesses</h2>
@@ -321,7 +316,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       
       <section className="grid grid-cols-1 md:grid-cols-4">
           {/* Business Trends Section */}
@@ -459,30 +454,38 @@ export default function Home() {
         </section>
           
       {/* Testimonial's section*/}
-      <section className="relative overflow-hidden">
+      <section className="relative overflow-hidden my-20">
         {/* <div className="container py-24 m-auto sm: px-2"> */}
           {/* <div className="mx-auto max-w-[800px] text-center"> */}
             <h2 className="text-3xl font-bold py-10 m-auto sm: px-2 text-center text-white/90">What our customers say</h2>
           {/* </div> */}
-          <div className="container grid grid-cols-1 md:grid-cols-4 justify-between mx-auto max-w-[1200px]">
-              <p className="mt-4 text-lg text-white/80">
-                We use cutting-edge technologies to deliver exceptional solutions
+          <div className="container grid grid-cols-1 md:grid-cols-4 justify-between mx-auto max-w-[1200px] gap-20">
+              <p className="mt-4 text-lg text-white/80 text-left">
+                We use cutting-edge technologies to deliver exceptional solutions 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at, neque nostrum sunt nesciunt aliquam et labore asperiores quasi laborum qui? Natus velit aspernatur possimus, maxime similique dolorum commodi suscipit.
               </p>
-              <p className="mt-4 text-lg text-muted-foreground">
+              <p className="mt-4 text-lg text-white/80 text-left">
                 We use cutting-edge technologies to deliver exceptional solutions
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at, neque nostrum sunt nesciunt aliquam et labore asperiores quasi laborum qui? Natus velit aspernatur possimus, maxime similique dolorum commodi suscipit.
+
               </p>
-              <p className="mt-4 text-lg text-muted-foreground">
+              <p className="mt-4 text-lg text-white/80 text-left">
                 We use cutting-edge technologies to deliver exceptional solutions
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at, neque nostrum sunt nesciunt aliquam et labore asperiores quasi laborum qui? Natus velit aspernatur possimus, maxime similique dolorum commodi suscipit.
+
               </p>
-              <p className="mt-4 text-lg text-muted-foreground">
+              <p className="mt-4 text-lg text-white/80 text-left">
                 We use cutting-edge technologies to deliver exceptional solutions
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at, neque nostrum sunt nesciunt aliquam et labore asperiores quasi laborum qui? Natus velit aspernatur possimus, maxime similique dolorum commodi suscipit.
+
               </p>
+          
             </div>
         {/* </div> */}
       </section>
 
       {/* Tech Stack Section */}
-      <section className="relative overflow-hidden">
+      {/* <section className="relative overflow-hidden">
         <div className="container py-24 m-auto sm: px-2">
           <div className="mx-auto max-w-[800px] text-center">
             <h2 className="text-3xl font-bold text-white/90">Powered by Latest Technology</h2>
@@ -505,10 +508,10 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
-      <section className="border-t bg-secondary/30">
+      {/* <section className="border-t bg-secondary/30">
         <div className="container py-24 m-auto">
           <div className="mx-auto max-w-[800px] text-center">
             <h2 className="text-3xl font-bold">Ready to Transform Your Business?</h2>
@@ -518,7 +521,7 @@ export default function Home() {
             </Button>
           </div>
         </div>
-      </section>
+      </section> */}
       </div>
     </>
   )
