@@ -101,19 +101,19 @@ export default function Home() {
         {/* The Slalom Experience */}
       <section className="py-20 bg-[#000B1D]">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl md:text-6xl font-bold text-white mb-16">The Slalom experience</h2>
+          <h2 className="text-4xl md:text-6xl text-white mb-16 text-center">The ASB experience</h2>
           <div className="grid md:grid-cols-2 gap-12">
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom5.JPG-F3HbsRprdRbuM6t04WIrtFgdFvLRx1.jpeg"
+                src="business2.webp"
                 alt="Slalom team members"
                 width={600}
                 height={400}
                 className="w-full h-[400px] object-cover"
               />
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
-                <p className="text-sm text-white/80">
-                  At a Realize event in Chicago, Slalom consultant leads customers through an improv exercise designed
+                <p className="text-sm text-white">
+                  At a Realize event in Chicago, ASB consultant leads customers through an improv exercise designed
                   to help leaders develop empathy and flexibility.
                 </p>
               </div>
@@ -129,6 +129,41 @@ export default function Home() {
               </p>
               <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white">Explore our services</Button>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20 bg-[#000B1D]">
+        <div className="container mx-auto px-4">
+          {/* <h2 className="text-4xl md:text-6xl font-bold text-white mb-16">The ASB experience</h2> */}
+          <div className="grid md:grid-cols-2 gap-12">
+          <div className="space-y-8">
+              <h3 className="text-2xl md:text-3xl font-bold text-white">
+              Industry  
+              <em> know-how</em>
+              </h3>
+              <p className="text-white/90 text-lg">
+              We have rich experience and proven results in your industry.
+              We also share insights across industries to help you uncover new opportunities to adapt and disrupt.
+              </p>
+              <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white">Explore our industries</Button>
+            </div>
+            <div className="relative rounded-lg overflow-hidden">
+              <Image
+                src="business6.jpg"
+                alt="Slalom team members"
+                width={600}
+                height={400}
+                className="w-full h-[400px] object-cover"
+              />
+              <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                <p className="text-sm text-white">
+                ASB team members and Luca Corradi of the Net Zero Technology Centre discuss how companies can accelerate toward a net zero future.
+                At Slalom, sustainability is a key part of our own efforts and a priority for our customers across industries.
+                </p>
+              </div>
+            </div>
+            
           </div>
         </div>
       </section>
@@ -172,7 +207,7 @@ export default function Home() {
             ].map((item, index) => (
               <div key={index} className="group relative bg-[#001233] rounded-lg overflow-hidden cursor-pointer">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom3.JPG-BDqv5QMfGDGMr098TWRX794BK3uM9s.jpeg"
+                  src="business1.jpg"
                   alt={item.title}
                   width={300}
                   height={200}
