@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Home() {
   return (
-    <><div className="m-0 overflow-hidden">
+    <><div className="m-0 overflow-hidden bg-[#000b24]">
       {/* Hero Section with Tech Background */}
       {/* <section className="relative min-h-[800px] overflow-hidden "> */}
         {/* Background Image with Overlay */}
@@ -56,7 +56,7 @@ export default function Home() {
         {/* <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-background to-transparent m-auto" />
       </section> */}
 {/* Hero Section */}
-      <section className="bg-gray-50 overflow-hidden ">
+      <section className=" overflow-hidden ">
         <div className="w-auto h-auto">
           <div className="flex flex-col lg:flex-row">
             {/* Image on the left */}
@@ -296,10 +296,10 @@ export default function Home() {
       <section className="relative overflow-hidden">
         {/* <div className="container py-24 m-auto sm: px-2"> */}
           {/* <div className="mx-auto max-w-[800px] text-center"> */}
-            <h2 className="text-3xl font-bold py-10 m-auto sm: px-2 text-center">What our customers say</h2>
+            <h2 className="text-3xl font-bold py-10 m-auto sm: px-2 text-center text-white/90">What our customers say</h2>
           {/* </div> */}
           <div className="container grid grid-cols-1 md:grid-cols-4 justify-between mx-auto max-w-[1200px]">
-              <p className="mt-4 text-lg text-muted-foreground">
+              <p className="mt-4 text-lg text-white/80">
                 We use cutting-edge technologies to deliver exceptional solutions
               </p>
               <p className="mt-4 text-lg text-muted-foreground">
@@ -319,7 +319,7 @@ export default function Home() {
       <section className="relative overflow-hidden">
         <div className="container py-24 m-auto sm: px-2">
           <div className="mx-auto max-w-[800px] text-center">
-            <h2 className="text-3xl font-bold">Powered by Latest Technology</h2>
+            <h2 className="text-3xl font-bold text-white/90">Powered by Latest Technology</h2>
             <p className="mt-4 text-lg text-muted-foreground">
               We use cutting-edge technologies to deliver exceptional solutions
             </p>
