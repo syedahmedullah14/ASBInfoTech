@@ -176,7 +176,7 @@ export function Footer() {
           <div className="grid md:grid-cols-3 gap-12 text-white">
             <div>
               <h3 className="font-bold mb-4 uppercase">Newsroom</h3>
-              <p className="mb-4">Get the latest news and updates about Slalom.</p>
+              <p className="mb-4">Get the latest news and updates about ASB.</p>
               <Button variant="link" className="text-white p-0">
                 Visit the newsroom →
               </Button>
