@@ -460,26 +460,43 @@ export default function Home() {
             <h2 className="text-3xl font-bold py-10 m-auto sm: px-2 text-center text-white/90">What our customers say</h2>
           {/* </div> */}
           <div className="container grid grid-cols-1 md:grid-cols-4 justify-between mx-auto max-w-auto gap-20">
-              <p className="mt-4 text-lg text-white/80 text-left">
+            <div className=" bg-[#0f1c41] min-h-[350px] px-10 pb-20 hover:bg-[#00a796] rounded-b-3xl">
+            <p className="mt-4 text-lg text-white/80 text-left">
                 We use cutting-edge technologies to deliver exceptional solutions 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at, neque nostrum sunt nesciunt aliquam et labore asperiores quasi laborum qui? Natus velit aspernatur possimus, maxime similique dolorum commodi suscipit.
               </p>
-              <p className="mt-4 text-lg text-white/80 text-left">
-                We use cutting-edge technologies to deliver exceptional solutions
+              <p className="mt-5 font-serif font-bold text-white/80">Jenny Hall</p>
+              <p className="mt-1 text-white/90">Director of Project Catalyst, Carhatt</p>
+            </div>
+             
+            <div className=" bg-[#0f1c41] min-h-[350px] px-10 pb-20 hover:bg-[#0066FF] rounded-b-3xl">
+            <p className="mt-4 text-lg text-white/90 text-left">
+                We use cutting-edge technologies to deliver exceptional solutions 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at, neque nostrum sunt nesciunt aliquam et labore asperiores quasi laborum qui? Natus velit aspernatur possimus, maxime similique dolorum commodi suscipit.
-
               </p>
-              <p className="mt-4 text-lg text-white/80 text-left">
-                We use cutting-edge technologies to deliver exceptional solutions
+              <p className="mt-5 font-serif font-bold text-white/80">Terri-Anne Johnson</p>
+              <p className="mt-1 text-white/90">CEO Clean Up, Australia</p>
+            </div>
+             
+            <div className=" bg-[#0f1c41] min-h-[350px] px-10 pb-20 hover:bg-[#341d55] rounded-b-3xl">
+            <p className="mt-4 text-lg text-white/80 text-left">
+                We use cutting-edge technologies to deliver exceptional solutions 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at, neque nostrum sunt nesciunt aliquam et labore asperiores quasi laborum qui? Natus velit aspernatur possimus, maxime similique dolorum commodi suscipit.
-
               </p>
-              <p className="mt-4 text-lg text-white/80 text-left">
-                We use cutting-edge technologies to deliver exceptional solutions
+              <p className="mt-5 font-serif font-bold text-white/80">Milorad Stefanovic</p>
+              <p className="mt-1 text-white/90">VP, Digital Technology, IGM Financial</p>
+            </div>
+             
+            <div className=" bg-[#0f1c41] min-h-[350px] px-10 pb-20 hover:bg-[#1B6AA8] rounded-b-3xl">
+            <p className="mt-4 text-lg text-white/80 text-left">
+                We use cutting-edge technologies to deliver exceptional solutions 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut at, neque nostrum sunt nesciunt aliquam et labore asperiores quasi laborum qui? Natus velit aspernatur possimus, maxime similique dolorum commodi suscipit.
-
               </p>
-          
+              <p className="mt-5 font-serif font-bold text-white/80">Maryam Byrdak</p>
+              <p className="mt-1 text-white/90">CIO, Feeding America</p>
+            </div>
+             
+             
             </div>
         {/* </div> */}
       </section>
