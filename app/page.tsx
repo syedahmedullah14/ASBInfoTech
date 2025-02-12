@@ -1,6 +1,9 @@
 import { Button } from "@/components/ui/button"
-import { ArrowRight, CheckCircle } from "lucide-react"
+// import { ArrowRight, CheckCircle } from "lucide-react"
 import Image from "next/image"
+import Link from "next/link"
+import { Search, Globe, ArrowRight, CheckCircle } from "lucide-react"
+// import { MobileMenu } from "@/components/mobile-menu"
 
 export default function Home() {
   return (
@@ -56,6 +59,7 @@ export default function Home() {
         {/* <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-background to-transparent m-auto" />
       </section> */}
 {/* Hero Section */}
+
       <HeroSlider/>
       {/* <section className=" overflow-hidden ">
         <div className="w-auto h-auto">
@@ -388,6 +392,7 @@ const features = [
 
 import { Cloud, Shield, Smartphone, Database } from "lucide-react"
 import { HeroSlider } from "@/components/hero-slider"
+import { MobileMenu } from "@/components/mobile-menu"
 
 const techStack = [
   {

@@ -4,6 +4,7 @@ import "./globals.css"
 import { Navbar } from "@/components/navbar"
 import type React from "react" // Added import for React
 import { Footer } from "@/components/footer"
+import { Navbar2 } from "@/components/navbar2"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -21,7 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={inter.className}>
-        <Navbar />
+        {/* <Navbar /> */}
+        <Navbar2 />
         <main>{children}</main>
         <Footer />
 
