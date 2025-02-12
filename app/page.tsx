@@ -98,7 +98,7 @@ export default function Home() {
         </div>
       </section> */}
 
-        {/* The Slalom Experience */}
+        {/* The ASB Experience */}
       <section className="py-20 bg-[#000B1D]">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl md:text-6xl text-white mb-16 text-center">The ASB experience</h2>
@@ -106,7 +106,7 @@ export default function Home() {
             <div className="relative rounded-lg overflow-hidden">
               <Image
                 src="business2.webp"
-                alt="Slalom team members"
+                alt="ASB team members"
                 width={600}
                 height={400}
                 className="w-full h-[400px] object-cover"
@@ -151,7 +151,7 @@ export default function Home() {
             <div className="relative rounded-lg overflow-hidden">
               <Image
                 src="business6.jpg"
-                alt="Slalom team members"
+                alt="ASB team members"
                 width={600}
                 height={400}
                 className="w-full h-[400px] object-cover"
@@ -159,7 +159,7 @@ export default function Home() {
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                 <p className="text-sm text-white">
                 ASB team members and Luca Corradi of the Net Zero Technology Centre discuss how companies can accelerate toward a net zero future.
-                At Slalom, sustainability is a key part of our own efforts and a priority for our customers across industries.
+                At ASB, sustainability is a key part of our own efforts and a priority for our customers across industries.
                 </p>
               </div>
             </div>
@@ -169,7 +169,7 @@ export default function Home() {
             <div className="relative rounded-lg overflow-hidden">
               <Image
                 src="business2.webp"
-                alt="Slalom team members"
+                alt="ASB team members"
                 width={600}
                 height={400}
                 className="w-full h-[400px] object-cover"
@@ -228,7 +228,7 @@ export default function Home() {
               },
               {
                 type: "REPORT",
-                title: "Slalom's AI research report: Executive insights for 2025",
+                title: "ASB's AI research report: Executive insights for 2025",
                 client: null,
               },
             ].map((item, index) => (
