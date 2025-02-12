@@ -459,7 +459,7 @@ export default function Home() {
           {/* <div className="mx-auto max-w-[800px] text-center"> */}
             <h2 className="text-3xl font-bold py-10 m-auto sm: px-2 text-center text-white/90">What our customers say</h2>
           {/* </div> */}
-          <div className="container grid grid-cols-1 md:grid-cols-4 justify-between mx-auto max-w-auto gap-20">
+          <div className="container grid grid-cols-1 md:grid-cols-4 justify-between m-w-auto md:max-w-[1200px] gap-20 mx-auto">
             <div className=" bg-[#0f1c41] min-h-[350px] px-10 pb-20 hover:bg-[#00a796] rounded-b-3xl">
             <p className="mt-4 text-lg text-white/80 text-left">
                 We use cutting-edge technologies to deliver exceptional solutions 
