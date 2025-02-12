@@ -56,10 +56,11 @@ export default function Home() {
         {/* <div className="absolute bottom-0 left-0 right-0 h-40 bg-gradient-to-t from-background to-transparent m-auto" />
       </section> */}
 {/* Hero Section */}
-      <section className=" overflow-hidden ">
+      <HeroSlider/>
+      {/* <section className=" overflow-hidden ">
         <div className="w-auto h-auto">
           <div className="flex flex-col lg:flex-row">
-            {/* Image on the left */}
+
             <div className="w-full lg:w-1/2 relative min-h-[300px] lg:h-auto">
               <Image
                 src="/tech3.jpeg?height=1080&width=1920"
@@ -69,7 +70,7 @@ export default function Home() {
                 priority
               />
             </div>
-            {/* Text content on the right */}
+
             <div className="w-full lg:w-1/2 p-8 lg:p-16 flex flex-col justify-center bg-[#341d55]  min-h-[400px] lg:min-h-[800px]">
               <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
                 <span className="block text-white">Welcome to</span>
@@ -91,7 +92,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* About Section with Tech Image */}
       <section className="overflow-hidden border-t bg-[#111111]">
         <div className="container py-24 m-auto sm: px-2">
@@ -386,6 +387,7 @@ const features = [
 ]
 
 import { Cloud, Shield, Smartphone, Database } from "lucide-react"
+import { HeroSlider } from "@/components/hero-slider"
 
 const techStack = [
   {

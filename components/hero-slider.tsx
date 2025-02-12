@@ -7,14 +7,26 @@ import { ChevronLeft, ChevronRight, Pause, Play } from "lucide-react"
 
 const slides = [
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom1.JPG-AB5zX65d0ie9simEJMwcCXQDok3372.jpeg",
+    image: "/tech3.jpeg",
     title: "Industry Outlooks",
     subtitle: "Discover the trends driving transformation this year.",
     year: "2025",
   },
   {
-    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom5.JPG-F3HbsRprdRbuM6t04WIrtFgdFvLRx1.jpeg",
-    title: "The Slalom experience",
+    image: "hero2.avif",
+    title: "The ASB experience",
+    subtitle: "End-to-end services that transform your business.",
+    year: "2025",
+  },
+  {
+    image: "hero3.webp",
+    title: "The ASB experience",
+    subtitle: "End-to-end services that transform your business.",
+    year: "2025",
+  },
+  {
+    image: "hero4.jpg",
+    title: "Building Stronger Customer Connections",
     subtitle: "End-to-end services that transform your business.",
     year: "2025",
   },
