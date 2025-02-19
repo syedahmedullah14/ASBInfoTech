@@ -1,12 +1,10 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { Search, Globe, ArrowRight, CheckCircle } from "lucide-react"
 import { MobileMenu } from "./mobile-menu"
-import Image from "next/image"
 
 export function Navbar2() {
 return(
-    <header className="fixed w-full z-50 bg-transparent">
+    <header className="fixed w-full z-50 bg-[#0066ff]">
         <div className="container mx-auto px-4">
           <div className="h-20 flex items-center justify-between">
             {/* Logo */}
@@ -22,13 +20,33 @@ return(
             </Link>
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center space-x-8 font-bold text-lg">
+            {/* <nav className="hidden md:flex items-center space-x-8 font-bold text-lg">
               {["Services", "Industries", "Insights", "Stories", "Who we are", "Careers"].map((item) => (
-                <Link key={item} href="#" className="text-white hover:text-white transition-colors">
+                <Link key={item} href="#" target="_blank" className="text-white hover:text-white transition-colors">
                   {item}
                 </Link>
               ))}
-            </nav>
+            </nav> */}
+
+          <nav className="hidden md:flex items-center space-x-8 font-bold text-lg">
+            {[
+              { name: "Services", path: "/services" },
+              { name: "Industries", path: "/industries" },
+              { name: "Insights", path: "/insights" },
+              { name: "Stories", path: "/stories" },
+              { name: "Who we are", path: "/who-we-are" },
+              { name: "Careers", path: "/careers" },
+            ].map((item) => (
+              <Link 
+                key={item.name} 
+                href={item.path} 
+                className="text-white hover:text-white transition-colors"
+              >
+                {item.name}
+              </Link>
+            ))}
+          </nav>
+
 
             {/* Right Side Actions */}
             <div className="flex items-center gap-4">
