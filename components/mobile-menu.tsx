@@ -37,7 +37,7 @@ export function MobileMenu() {
           <Link href="#" onClick={() => setOpen(false)} className="text-lg hover:text-[#e4ff1a]">
             Careers
           </Link>
-          <Button className="mt-4 w-full" variant="outline">
+          <Button className="mt-4 w-full text-black" variant="outline">
             Let's talk
           </Button>
         </nav>

@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import { Search, Globe, ArrowRight, CheckCircle } from "lucide-react"
@@ -39,12 +38,12 @@ return(
               >
                 Let's talk
               </Button>
-              <Button variant="ghost" size="icon" className="text-white">
+              {/* <Button variant="ghost" size="icon" className="text-white">
                 <Search className="h-5 w-5" />
               </Button>
               <Button variant="ghost" size="icon" className="text-white">
                 <Globe className="h-5 w-5" />
-              </Button>
+              </Button> */}
               <MobileMenu />
             </div>
           </div>
