@@ -8,7 +8,7 @@ export default function IndustriesPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom6.JPG-tZsz7nb5Fgx27DBQ6akvSvqIXEm7wA.jpeg"
+          src="tech4.jpeg"
           alt="Industry expertise"
           fill
           className="object-cover"
@@ -76,7 +76,7 @@ export default function IndustriesPage() {
                 <div className="p-6">
                   <h3 className="text-2xl font-bold mb-4">{industry.title}</h3>
                   <p className="text-white/70 mb-6">{industry.description}</p>
-                  <Button variant="outline" className="text-[#e4ff1a] hover:text-white p-0">
+                  <Button variant="outline" className="text-black">
                     Learn more →
                   </Button>
                 </div>
@@ -112,7 +112,7 @@ export default function IndustriesPage() {
                 <span className="text-[#e4ff1a] text-sm">{story.client}</span>
                 <h3 className="text-xl font-bold my-4">{story.title}</h3>
                 <p className="text-white/70 mb-6">{story.description}</p>
-                <Button variant="outline" className="text-white hover:text-[#e4ff1a] p-0">
+                <Button variant="outline" className="text-black">
                   Read case study →
                 </Button>
               </Card>
@@ -163,7 +163,7 @@ export default function IndustriesPage() {
       <section className="py-20 bg-[#0066FF]">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">Let's solve industry challenges together</h2>
-          <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-[#0066FF]">
+          <Button variant="outline" size="lg" className="text-[#0066FF] border-white">
             Contact us
           </Button>
         </div>

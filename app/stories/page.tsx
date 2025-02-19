@@ -8,7 +8,7 @@ export default function StoriesPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom3.JPG-nj3X6Rmw4Kr0OnxoPLZhG6CuHYN2am.jpeg"
+          src="hero4.jpg"
           alt="Customer stories"
           fill
           className="object-cover"
@@ -57,7 +57,7 @@ export default function StoriesPage() {
                   <span className="text-[#e4ff1a] text-sm">{story.type}</span>
                   <h3 className="text-xl font-bold my-4">{story.title}</h3>
                   <p className="text-white/60 mb-6">{story.client}</p>
-                  <Button variant="outline" className="text-white hover:text-[#e4ff1a] p-0">
+                  <Button variant="outline" className="text-black ">
                     Read story →
                   </Button>
                 </div>
@@ -96,7 +96,7 @@ export default function StoriesPage() {
               <Button
                 key={industry}
                 variant="outline"
-                className="h-32 text-xl font-bold text-white border-white/20 hover:bg-white hover:text-[#001233]"
+                className="h-32 text-xl font-bold text-[#001233] border-white/80 hover:bg-[#001233] hover:text-white"
               >
                 {industry}
               </Button>

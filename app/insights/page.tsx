@@ -9,8 +9,8 @@ export default function InsightsPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom3.JPG-nj3X6Rmw4Kr0OnxoPLZhG6CuHYN2am.jpeg"
-          alt="Slalom insights"
+          src="tech2.jpg"
+          alt="ASB insights"
           fill
           className="object-cover"
           priority
@@ -59,7 +59,7 @@ export default function InsightsPage() {
                   <span className="text-[#e4ff1a] text-sm">{article.type}</span>
                   <h3 className="text-xl font-bold my-4">{article.title}</h3>
                   <p className="text-white/70 mb-6">{article.description}</p>
-                  <Button variant="outline" className="text-white hover:text-[#e4ff1a] p-0">
+                  <Button variant="outline" className="text-black">
                     Read more <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </div>
@@ -87,7 +87,7 @@ export default function InsightsPage() {
               <Button
                 key={topic}
                 variant="outline"
-                className="text-white border-white hover:bg-white hover:text-[#001233]"
+                className="text-[#001233] border-white"
               >
                 {topic}
               </Button>
@@ -161,7 +161,7 @@ export default function InsightsPage() {
               placeholder="Enter your email"
               className="flex-1 px-4 py-2 rounded-full bg-white/10 text-white placeholder:text-white/60 border border-white/20 focus:outline-none focus:border-white"
             />
-            <Button variant="outline" className="text-white border-white hover:bg-white hover:text-[#0066FF]">
+            <Button variant="outline" className="text-[#0066FF] border-white">
               Subscribe
             </Button>
           </div>

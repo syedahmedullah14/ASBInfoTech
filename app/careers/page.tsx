@@ -9,8 +9,8 @@ export default function CareersPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom5.JPG-9jQnJYVd16M6Jwd3C1c61ps2wU5ubK.jpeg"
-          alt="Slalom careers"
+          src="hero2.avif"
+          alt="ASB careers"
           fill
           className="object-cover"
           priority
@@ -159,7 +159,7 @@ export default function CareersPage() {
       <section className="py-20 bg-[#0066FF]">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8">Ready to join us?</h2>
-          <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-[#0066FF]">
+          <Button variant="outline" size="lg" className="text-[#0066FF] border-white">
             View all positions
           </Button>
         </div>

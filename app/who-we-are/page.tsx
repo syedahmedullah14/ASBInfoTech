@@ -8,7 +8,7 @@ export default function WhoWeArePage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom5.JPG-9jQnJYVd16M6Jwd3C1c61ps2wU5ubK.jpeg"
+          src="business3.webp"
           alt="Slalom team"
           fill
           className="object-cover"
