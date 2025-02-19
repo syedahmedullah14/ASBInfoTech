@@ -37,10 +37,10 @@ export default function CareersPage() {
         </div>
       </section>
 
-      {/* Why Slalom */}
+      {/* Why ASB */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-white mb-12">Why Slalom</h2>
+          <h2 className="text-3xl font-bold text-white mb-12">Why ASB</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
@@ -128,7 +128,7 @@ export default function CareersPage() {
       {/* Employee Stories */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-white mb-12">Life at Slalom</h2>
+          <h2 className="text-3xl font-bold text-white mb-12">Life at ASB</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[1, 2, 3].map((story) => (
               <Card key={story} className="bg-[#001233] text-white overflow-hidden">
@@ -138,7 +138,7 @@ export default function CareersPage() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-4">Employee Story</h3>
                   <p className="text-white/70 mb-6">
-                    "At Slalom, I've found a place where I can grow both professionally and personally while working on
+                    "At ASB, I've found a place where I can grow both professionally and personally while working on
                     meaningful projects."
                   </p>
                   <div className="flex items-center gap-4">

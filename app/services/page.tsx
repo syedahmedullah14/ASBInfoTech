@@ -9,7 +9,7 @@ export default function ServicesPage() {
       <section className="relative h-[60vh] overflow-hidden">
         <Image
           src="business6.jpg"
-          alt="Slalom services"
+          alt="ASB services"
           fill
           className="object-cover"
           priority

@@ -9,7 +9,7 @@ export default function WhoWeArePage() {
       <section className="relative h-[60vh] overflow-hidden">
         <Image
           src="business3.webp"
-          alt="Slalom team"
+          alt="ASB team"
           fill
           className="object-cover"
           priority
