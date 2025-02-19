@@ -1,32 +1,107 @@
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
-import { MobileMenu } from "./mobile-menu"
+// import { Button } from "@/components/ui/button"
+// import Link from "next/link"
+// import { MobileMenu } from "./mobile-menu"
+// import Image from "next/image"
+// import { useEffect, useState } from "react"
+
+
+// export function Navbar2() {
+// return(
+    
+//     <header 
+//     className="fixed w-full z-50 bg-transparent"
+//     >
+//         <div className="container mx-auto px-4">
+//           <div className="h-20 flex items-center justify-between">
+//             {/* Logo */}
+//             <Link href="/" className="text-white text-2xl font-bold">
+//               <Image
+//                           src="logo1.png"
+//                           alt="ASB Infotech Logo"
+//                           width={190}
+//                           height={37}
+//                           className="object-contain"
+//                         />
+//             </Link>
+
+//           <nav className="hidden md:flex items-center space-x-8 font-bold text-lg">
+//             {[
+//               { name: "Services", path: "/services" },
+//               { name: "Industries", path: "/industries" },
+//               { name: "Insights", path: "/insights" },
+//               { name: "Stories", path: "/stories" },
+//               { name: "Who we are", path: "/who-we-are" },
+//               { name: "Careers", path: "/careers" },
+//             ].map((item) => (
+//               <Link 
+//                 key={item.name} 
+//                 href={item.path} 
+//                 className="text-white hover:text-white transition-colors"
+//               >
+//                 {item.name}
+//               </Link>
+//             ))}
+//           </nav>
+
+
+//             {/* Right Side Actions */}
+//             <div className="flex items-center gap-4">
+//               <Button
+//                 variant="outline"
+//                 className="hidden md:inline-flex text-black border-white hover:bg-white hover:text-black"
+//               >
+//                 Let's talk
+//               </Button>
+             
+//               <MobileMenu />
+//             </div>
+//           </div>
+//         </div>
+//       </header>
+// )
+// }
+
+"use client"
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import { MobileMenu } from "./mobile-menu";
+import Image from "next/image";
+import { useEffect, useState } from "react";
 
 export function Navbar2() {
-return(
-    <header className="fixed w-full z-50 bg-[#0066ff]">
-        <div className="container mx-auto px-4">
-          <div className="h-20 flex items-center justify-between">
-            {/* Logo */}
-            <Link href="/" className="text-white text-2xl font-bold">
-              ASB InfoTech
-              {/* <Image
-                          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/abslogo-5F0cct4TGhJpAE2xatFERZans7drxc.webp"
-                          alt="ASB Infotech Logo"
-                          width={190}
-                          height={37}
-                          className="object-contain"
-                        /> */}
-            </Link>
+  const [isScrolled, setIsScrolled] = useState(false);
 
-            {/* Desktop Navigation */}
-            {/* <nav className="hidden md:flex items-center space-x-8 font-bold text-lg">
-              {["Services", "Industries", "Insights", "Stories", "Who we are", "Careers"].map((item) => (
-                <Link key={item} href="#" target="_blank" className="text-white hover:text-white transition-colors">
-                  {item}
-                </Link>
-              ))}
-            </nav> */}
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <header
+      className={`fixed w-full z-50 transition-colors duration-300 ${
+        isScrolled ? "bg-[white] shadow-lg" : "bg-transparent"
+      }`}
+    >
+      <div className="container mx-auto px-4">
+        <div className="h-20 flex items-center justify-between">
+          {/* Logo */}
+          <Link href="/" className="text-2xl font-bold">
+            <Image
+              src="logo1.png"
+              alt="ASB Infotech Logo"
+              width={190}
+              height={37}
+              className="object-contain"
+            />
+          </Link>
 
           <nav className="hidden md:flex items-center space-x-8 font-bold text-lg">
             {[
@@ -37,35 +112,35 @@ return(
               { name: "Who we are", path: "/who-we-are" },
               { name: "Careers", path: "/careers" },
             ].map((item) => (
-              <Link 
-                key={item.name} 
-                href={item.path} 
-                className="text-white hover:text-white transition-colors"
+              <Link
+                key={item.name}
+                href={item.path}
+                className={`transition-colors ${
+                  isScrolled ? "text-black hover:text-gray-700" : "text-white hover:text-gray-300"
+                }`}
               >
                 {item.name}
               </Link>
             ))}
           </nav>
 
+          {/* Right Side Actions */}
+          <div className="flex items-center gap-4">
+            <Button
+              variant="outline"
+              className={`hidden md:inline-flex border ${
+                isScrolled
+                  ? "text-black border-black hover:bg-black hover:text-white"
+                  : "text-black border-white hover:bg-white hover:text-black"
+              }`}
+            >
+              Let's talk
+            </Button>
 
-            {/* Right Side Actions */}
-            <div className="flex items-center gap-4">
-              <Button
-                variant="outline"
-                className="hidden md:inline-flex text-black border-white hover:bg-white hover:text-black"
-              >
-                Let's talk
-              </Button>
-              {/* <Button variant="ghost" size="icon" className="text-white">
-                <Search className="h-5 w-5" />
-              </Button>
-              <Button variant="ghost" size="icon" className="text-white">
-                <Globe className="h-5 w-5" />
-              </Button> */}
-              <MobileMenu />
-            </div>
+            <MobileMenu />
           </div>
         </div>
-      </header>
-)
+      </div>
+    </header>
+  );
 }
