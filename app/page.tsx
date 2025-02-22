@@ -123,9 +123,9 @@ export default function Home() {
                 End-to-end <em>services</em>
               </h3>
               <p className="text-white/90 text-lg">
-                From strategy to digital product building and beyond, we bring the right mix of services to accelerate
-                your vision with holistic, practical solutions. We listen deeply and share our knowledge every step of
-                the way, empowering your teams to continue the momentum after we're gone.
+                Company built on strong pillars of integrity, honesty and perseverance lead by talented individuals
+                who's goal is to provide optimum solutions to problems in various sections of the IT Services Industry.
+                <br />
               </p>
               <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white">Explore our services</Button>
             </div>
@@ -143,10 +143,13 @@ export default function Home() {
               <em> know-how</em>
               </h3>
               <p className="text-white/90 text-lg">
-              We have rich experience and proven results in your industry.
-              We also share insights across industries to help you uncover new opportunities to adapt and disrupt.
+                Company caters to client services across Business and Technology needs in Financial, Retail, Insurance, Educational, 
+                E-Commerce, Security, Medical/Pharmaceutical domains. Company also focuses on solutions across several dimensions such as
+                technology, and industry verticals, while focusing on customer solutions while positioning self as a strong preferred technology
+                leader/partner for a various clientele worldwide.
+                <br />
               </p>
-              <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white">Explore our industries</Button>
+              <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white" >Explore our industries</Button>
             </div>
             <div className="relative rounded-lg overflow-hidden">
               <Image
@@ -158,8 +161,8 @@ export default function Home() {
               />
               <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
                 <p className="text-sm text-white">
-                ASB team members and Luca Corradi of the Net Zero Technology Centre discuss how companies can accelerate toward a net zero future.
-                At ASB, sustainability is a key part of our own efforts and a priority for our customers across industries.
+                In true Agile fashion, ASB Infotech follows Agile to the core in adopting change via continuous learning, adapt, evolve process improvements.   
+                We take every client engagement as if it is our first and do due diligence to deliver project on time, within budget and 100% quality.
                 </p>
               </div>
             </div>
@@ -574,6 +577,7 @@ const features = [
 import { Cloud, Shield, Smartphone, Database } from "lucide-react"
 import { HeroSlider } from "@/components/hero-slider"
 import { MobileMenu } from "@/components/mobile-menu"
+import path from "path"
 
 const techStack = [
   {
