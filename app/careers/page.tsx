@@ -84,17 +84,17 @@ export default function CareersPage() {
           <div className="space-y-4">
             {[
               {
-                title: "Senior Cloud Architect",
+                title: "Software Developer",
                 location: "New York, NY",
                 type: "Full-time",
               },
               {
-                title: "Data Scientist",
+                title: "Business Systems Analyst",
                 location: "San Francisco, CA",
                 type: "Full-time",
               },
               {
-                title: "UX Designer",
+                title: "Computer System Analyst",
                 location: "London, UK",
                 type: "Full-time",
               },

@@ -149,7 +149,7 @@ export default function Home() {
                 leader/partner for a various clientele worldwide.
                 <br />
               </p>
-              <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white" >Explore our industries</Button>
+              <Button className="bg-[#0066FF] hover:bg-[#0052CC] text-white">Explore our industries</Button>
             </div>
             <div className="relative rounded-lg overflow-hidden">
               <Image
