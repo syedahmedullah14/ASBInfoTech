@@ -111,6 +111,7 @@ export function Navbar2() {
               { name: "Stories", path: "/stories" },
               { name: "Who we are", path: "/who-we-are" },
               { name: "Careers", path: "/careers" },
+              { name: "Products", path: "/products" },
             ].map((item) => (
               <Link
                 key={item.name}
