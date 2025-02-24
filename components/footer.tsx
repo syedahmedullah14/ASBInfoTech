@@ -175,16 +175,19 @@ export function Footer() {
           </div>
           <div className="grid md:grid-cols-3 gap-12 text-white">
             <div>
-              <h3 className="font-bold mb-4 uppercase">Newsroom</h3>
-              <p className="mb-4">Get the latest news and updates about ASB.</p>
-              <Button variant="link" className="text-white p-0">
+              <h3 className="font-bold mb-4 uppercase">ASB Infotech
+              </h3>
+              <p className="mb-4">21640 N. 19 Ave, Suite C,Phoenix, AZ 85027</p>
+              <p className="mb-4">Better yet, see us in person!</p>
+              <p className="mb-4">We love our customers, so feel free to visit during normal business hours.</p>
+              {/* <Button variant="link" className="text-white p-0">
                 Visit the newsroom →
-              </Button>
+              </Button> */}
             </div>
             <div>
               <h3 className="font-bold mb-4 uppercase">Our locations</h3>
               <ul className="space-y-2">
-                {["Australia", "Canada", "Colombia", "Germany", "Ireland", "Japan"].map((location) => (
+                {["USA", "Canada", "Colombia", "Germany", "Ireland", "Japan"].map((location) => (
                   <li key={location}>
                     <Link href="#" className="hover:underline">
                       {location}
