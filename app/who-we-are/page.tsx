@@ -38,20 +38,20 @@ export default function WhoWeArePage() {
       {/* Values */}
       <section className="py-20 bg-[#001233]">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-white mb-12">Our values</h2>
+          <h2 className="text-3xl font-bold text-white mb-12">Why join our team?</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
               {
-                title: "Do what is right",
-                description: "We act with integrity and put our clients first.",
+                title: "By Joining the company",
+                description: "We ensure that our new employees receive proper guidance/training from well qualified Training staff equipped to teach/make understand concepts and share for next professional challenge. We tag distinct significance to acquainting our resources with our corporate strategy and specific nature of our organization landscape.",
               },
               {
-                title: "Drive innovation",
-                description: "We embrace new ideas and challenge the status quo.",
+                title: "Career Development",
+                description: "Our position as a technology leader across various IT domains puts us at key position to offer Continuous Professional Development (CPD) for our employees which is therefore essential to our success. Company supports talented young professionals with special development program's and individual career planning.",
               },
               {
-                title: "Take ownership",
-                description: "We take responsibility and deliver on our promises.",
+                title: "Performance- and results-based remuneration",
+                description: "Based on annual performance reviews, attractive remuneration packages ensure that our employees are rewarded for their results and performance.",
               },
               {
                 title: "Focus on outcomes",
