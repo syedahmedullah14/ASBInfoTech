@@ -95,7 +95,7 @@ export function Navbar2() {
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold">
             <Image
-              src="Logo1.png"
+              src="Logo5.png"
               alt="ASB Infotech Logo"
               width={190}
               height={37}
