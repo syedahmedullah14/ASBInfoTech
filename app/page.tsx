@@ -105,7 +105,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src="business2.webp"
+                src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070"
                 alt="ASB team members"
                 width={600}
                 height={400}
@@ -153,7 +153,7 @@ export default function Home() {
             </div>
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src="business6.jpg"
+                src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=2073"
                 alt="ASB team members"
                 width={600}
                 height={400}
@@ -171,7 +171,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 mt-20">
             <div className="relative rounded-lg overflow-hidden">
               <Image
-                src="business2.webp"
+                src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070"
                 alt="ASB team members"
                 width={600}
                 height={400}
@@ -237,7 +237,12 @@ export default function Home() {
             ].map((item, index) => (
               <div key={index} className="group relative bg-[#001233] rounded-lg overflow-hidden cursor-pointer">
                 <Image
-                  src="business1.jpg"
+                  src={[
+                    "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?q=80&w=2091",
+                    "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2070",
+                    "https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=2070",
+                    "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070"
+                  ][index]}
                   alt={item.title}
                   width={300}
                   height={200}
@@ -324,20 +329,12 @@ export default function Home() {
       <section className="grid grid-cols-1 md:grid-cols-4">
           {/* Business Trends Section */}
           <div className="relative group cursor-pointer h-[400px] ">
-            <Image src="/business1.jpg" alt="Person looking at horizon" fill className="object-cover" />
-            {/* <div className="absolute inset-0 bg-[#0077C8] bg-opacity-90 p-8 flex flex-col justify-between"> */}
-              {/* <div> */}
-                {/* <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
-                  AHEAD OF THE CURVE : 2025 BUSINESS TRENDS
-                </h2> */}
-                {/* <p className="text-white/90">
-                  Wipro experts forecast how top organizations can capitalize on opportunities for growth.
-                </p> */}
-              {/* </div> */}
-              {/* <Button variant="link" className="text-white w-fit p-0 group-hover:translate-x-2 transition-transform">
-                READ MORE <ArrowRight className="ml-2 h-4 w-4" />
-              </Button> */}
-            {/* </div> */}
+            <Image 
+              src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=2076" 
+              alt="Business analytics" 
+              fill 
+              className="object-cover" 
+            />
           </div>
           <div className="relative group cursor-pointer h-[400px]">
             <div className="absolute inset-0 bg-[#746FA8] p-8 flex flex-col justify-between">
@@ -355,8 +352,12 @@ export default function Home() {
             </div>
           </div>
           <div className="relative group cursor-pointer h-[400px] ">
-            <Image src="/business2.webp" alt="Person looking at horizon" fill className="object-cover" />
-            
+            <Image 
+              src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070" 
+              alt="Team collaboration" 
+              fill 
+              className="object-cover" 
+            />
           </div>
 
           {/* AI & Industry Cloud Section */}
@@ -396,7 +397,12 @@ export default function Home() {
           {/* Business Outcomes Section */}
           <div className="relative group cursor-pointer h-[400px]">
            
-            <Image src="/business3.webp" alt="Analytics visualization" fill className="object-cover" />
+            <Image 
+              src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015" 
+              alt="Data analytics" 
+              fill 
+              className="object-cover" 
+            />
             
           </div>
           <div className="relative group cursor-pointer h-[400px]">
@@ -414,13 +420,22 @@ export default function Home() {
             </div>
           </div>
           <div className="relative group cursor-pointer h-[400px]">              
-            <Image src="/business4.webp" alt="Analytics visualization" fill className="object-cover" />
+            <Image 
+              src="https://images.unsplash.com/photo-1551434678-e076c223a692?q=80&w=2070" 
+              alt="Team meeting" 
+              fill 
+              className="object-cover" 
+            />
             
           </div>
-       
           <div className="relative group cursor-pointer h-[400px]">
             
-            <Image src="/business5.jpg" alt="Analytics visualization" fill className="object-cover" />
+            <Image 
+              src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=2069" 
+              alt="Healthcare technology" 
+              fill 
+              className="object-cover" 
+            />
            
           </div>
           <div className="relative group cursor-pointer h-[400px]">
@@ -438,7 +453,12 @@ export default function Home() {
           </div>
           <div className="relative group cursor-pointer h-[400px]">
           
-            <Image src="/business6.jpg" alt="Analytics visualization" fill className="object-cover" />
+            <Image 
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2076" 
+              alt="Business meeting" 
+              fill 
+              className="object-cover" 
+            />
           
           </div>
           <div className="relative group cursor-pointer h-[400px]">

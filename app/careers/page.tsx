@@ -9,7 +9,7 @@ export default function CareersPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="hero2.avif"
+          src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070"
           alt="ASB careers"
           fill
           className="object-cover"
@@ -130,22 +130,43 @@ export default function CareersPage() {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-white mb-12">Life at ASB</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((story) => (
-              <Card key={story} className="bg-[#001233] text-white overflow-hidden">
+            {[
+              {
+                name: "Sarah Chen",
+                role: "Senior Software Engineer",
+                image: "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=2070",
+                profileImage: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1522",
+                testimonial: "The innovative culture at ASB has allowed me to work with cutting-edge technologies while solving complex challenges. The support for continuous learning has been incredible."
+              },
+              {
+                name: "Marcus Rodriguez",
+                role: "Product Manager",
+                image: "https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070",
+                profileImage: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1587",
+                testimonial: "What sets ASB apart is the emphasis on collaboration and innovation. I've had the opportunity to lead transformative projects that make a real impact on our clients' businesses."
+              },
+              {
+                name: "Priya Patel",
+                role: "Technology Consultant",
+                image: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070",
+                profileImage: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1587",
+                testimonial: "The global exposure and diverse project portfolio at ASB has accelerated my professional growth. The inclusive culture makes everyone feel valued and heard."
+              }
+            ].map((story) => (
+              <Card key={story.name} className="bg-[#001233] text-white overflow-hidden">
                 <div className="h-48 relative">
-                  <Image src="/placeholder.svg" alt="Employee story" fill className="object-cover" />
+                  <Image src={story.image} alt={`${story.name}'s story`} fill className="object-cover" />
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold mb-4">Employee Story</h3>
-                  <p className="text-white/70 mb-6">
-                    "At ASB, I've found a place where I can grow both professionally and personally while working on
-                    meaningful projects."
-                  </p>
+                  <p className="text-white/70 mb-6">"{story.testimonial}"</p>
                   <div className="flex items-center gap-4">
-                    <div className="w-12 h-12 rounded-full bg-white/10" />
+                    <div className="w-12 h-12 rounded-full relative overflow-hidden">
+                      <Image src={story.profileImage} alt={story.name} fill className="object-cover" />
+                    </div>
                     <div>
-                      <p className="font-medium">Jane Smith</p>
-                      <p className="text-white/60">Senior Consultant</p>
+                      <p className="font-medium">{story.name}</p>
+                      <p className="text-white/60">{story.role}</p>
                     </div>
                   </div>
                 </div>
