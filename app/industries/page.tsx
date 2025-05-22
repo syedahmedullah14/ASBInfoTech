@@ -8,7 +8,7 @@ export default function IndustriesPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="tech4.jpeg"
+          src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2070"
           alt="Industry expertise"
           fill
           className="object-cover"
@@ -33,32 +33,32 @@ export default function IndustriesPage() {
               {
                 title: "Financial Services",
                 description: "Digital transformation solutions for banks, insurers, and investment firms.",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1601597111158-2fceff292cdc?q=80&w=2070",
               },
               {
                 title: "Healthcare & Life Sciences",
                 description: "Innovation in patient care, clinical trials, and medical research.",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?q=80&w=2070",
               },
               {
                 title: "Technology",
                 description: "Cutting-edge solutions for software, hardware, and tech service providers.",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=2070",
               },
               {
                 title: "Retail & Consumer Goods",
                 description: "Digital commerce and supply chain optimization solutions.",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=2070",
               },
               {
                 title: "Manufacturing",
                 description: "Smart factory and Industry 4.0 transformation solutions.",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2070",
               },
               {
                 title: "Energy & Utilities",
                 description: "Sustainable and efficient solutions for the energy sector.",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?q=80&w=2070",
               },
             ].map((industry) => (
               <Card
@@ -149,7 +149,7 @@ export default function IndustriesPage() {
             </div>
             <div className="relative h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom7.JPG-eOrWeqyP8VB98o1aoFmgM1VHQ36dk9.jpeg"
+                src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015"
                 alt="Industry insights"
                 fill
                 className="object-cover"

@@ -8,7 +8,7 @@ export default function StoriesPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="hero4.jpg"
+          src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070"
           alt="Customer stories"
           fill
           className="object-cover"
@@ -34,19 +34,19 @@ export default function StoriesPage() {
                 client: "The Home Depot",
                 title: "Building the future of retail with BlackLocus",
                 type: "CUSTOMER STORY",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1582139329536-e7284fece509?q=80&w=2070",
               },
               {
                 client: "Protas",
                 title: "Transforming clinical trials for speed and efficiency",
                 type: "CASE STUDY",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?q=80&w=2091",
               },
               {
                 client: "Clean Up Australia",
                 title: "Digital transformation for environmental impact",
                 type: "SUCCESS STORY",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?q=80&w=2070",
               },
             ].map((story) => (
               <Card key={story.title} className="bg-[#001233] text-white overflow-hidden">

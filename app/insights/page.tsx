@@ -9,7 +9,7 @@ export default function InsightsPage() {
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
-          src="tech2.jpg"
+          src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072"
           alt="ASB insights"
           fill
           className="object-cover"
@@ -36,19 +36,19 @@ export default function InsightsPage() {
                 type: "REPORT",
                 title: "AI Adoption Trends 2025",
                 description: "Key insights on how businesses are leveraging AI technology.",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2070",
               },
               {
                 type: "ARTICLE",
                 title: "The Future of Work",
                 description: "How digital transformation is reshaping workplace dynamics.",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070",
               },
               {
                 type: "WHITEPAPER",
                 title: "Cloud Migration Strategies",
                 description: "Best practices for successful cloud transformation.",
-                image: "/placeholder.svg",
+                image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072",
               },
             ].map((article) => (
               <Card key={article.title} className="bg-[#001233] text-white overflow-hidden">
@@ -138,7 +138,7 @@ export default function InsightsPage() {
             </div>
             <div className="relative h-[600px] rounded-lg overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/salom7.JPG-eOrWeqyP8VB98o1aoFmgM1VHQ36dk9.jpeg"
+                src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?q=80&w=2076"
                 alt="Latest research"
                 fill
                 className="object-cover"
